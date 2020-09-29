@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Tahoma, Geneva, sans-serif;
+}
+
+.container {
+  padding: 1rem;
+  margin: 1rem;
+}
+
+main h1 {
+  margin-bottom: 2rem;
+}
+
+main ul {
+  list-style-position: outside;
+  list-style-type: circle;
+  margin-left: 1rem;
+}
+
+main ul li ul {
+  list-style-position: inside;
+  list-style-type: square;
+}
+
+main ul li ul li {
+  margin: 1rem;
+}

@@ -1,0 +1,91 @@
+#main {
+  background-color: #ddd;
+  width: 99.8%;
+  margin: 2rem auto;
+  font-family: Tahoma, Geneva, sans-serif;
+  color: #333;
+  text-align: center;
+  line-height: 1.8;
+  border-radius: 5px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 1rem 1rem;
+}
+
+#main header h1 {
+  font-size: 2.25rem;
+}
+
+#img-div {
+  background-color: #fff;
+  width: 96%;
+  margin: 0 auto;
+}
+
+#img-div #image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+#img-div #img-caption {
+  width: 95%;
+  margin: 1rem auto 0 auto;
+  font-size: 0.9rem;
+}
+
+#tribute-info p {
+  font-weight: 900;
+  padding: 1.5rem 0;
+}
+
+#tribute-info ul,
+aside blockquote {
+  max-width: 600px;
+  margin: auto;
+  text-align: left;
+}
+
+#tribute-info ul li {
+  margin: 1rem 0;
+}
+
+#tribute-info ul li .year {
+  font-weight: 900;
+}
+
+aside #more-info {
+  font-weight: 900;
+  padding-top: 3rem;
+}
+
+#back-to-main-wrapper {
+  position: fixed;
+  top: 15px;
+  left: 0;
+  right: 0;
+  width: 120px;
+  height: auto;
+  margin: auto;
+}
+
+#back-to-main a {
+  font-size: 12px;
+  background-color: rgba(255, 255, 204, 0.7);
+  color: black;
+  padding: 3px 5px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 10px rgba(128, 128, 128, 0.6);
+  font-family: Noto Sans, arial, sans-serif;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+
+#back-to-main a:hover {
+  background-color: rgba(255, 255, 204, 1);
+  color: red;
+}
